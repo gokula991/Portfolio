@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Projects</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your main stylesheet -->
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Data Science Projects</a></li>
+            <li><a href="experience.html">Work Experience</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>Data Science Projects</h1>
+        <div class="project">
+            <h2>Streamlit Application for Resume Analysis using NLP and GPT-3.5 turbo (Recruiter Friendly)</h2>
+            <p>Technical Synopsis: Streamlit-Powered ATS Resume Matcher with OpenAI GPT-3.5 Turbo</p>
+            <p>This project leverages OpenAI's powerful GPT-3.5 Turbo language model, seamlessly integrated within a user-friendly Streamlit web app. It utilizes CountVectorizer from Scikit-learn to transform resumes and job descriptions into numerical vectors for calculating cosine similarity and matching suitability. The system can dynamically generate job descriptions for different experience levels (entry, mid, and advanced) and suggest missing keywords to enhance resumes based on the job description, powered by GPT-3.5 Turbo. PyPDF2 library enables processing of PDF resumes, while secure key management safeguards API credentials. This Streamlit-based application significantly optimizes the resume screening process, offering a data-driven and user-friendly approach to talent acquisition for recruiters.</p>
+            <p>Skills: Large Language Models (LLM), Natural Language Processing (NLP), Application Programming Interfaces (API), Streamlit</p>
+            <a href="https://github.com/gokula991/Streamlit-Application-for-Resume-Analysis-using-NLP-and-GPT-3.5-turbo" class="github-link">GitHub</a>
+        </div>
+        <div class="project">
+            <h2>Industry Partnered Capstone Project</h2>
+            <p>Associated with Seattle University</p>
+            <p>Algorithm for Fed Markets: Developed a custom-built advanced search engine using unsupervised NLP techniques for a prominent IT distributor, streamlining their internal data analysis and discovery process. This innovative solution, featuring a streamlined user interface and a robust data pipeline, significantly enhanced efficiency and improved accessibility for their team.</p>
+            <p>Skills: Data Engineering, Pipelines, Azure Data Factory, Azure Data Lake, Python (Programming Language), Big Data, Teamwork, Web Design, Business Analysis, Machine Learning, Data Analysis, Azure Databricks</p>
+            <a href="https://github.com/gokula991/Industry-Partnered-Capstone-Project" class="github-link">GitHub</a>
+        </div>
+        <div class="project">
+            <h2>Stock Analysis using Yahoo Finance API</h2>
+            <p>This project uncovers behavior of Stock Markets on an annual basis, including numerous disciplines(NFLX,TSLA..). It tackles all problems related to Daily Returns, Moving Averages, Interdependence of Stocks, Value at Risk, Forecast Stock behavior by using Bootstrap method, Monte-Carlo Simulations, Geometric Brownian Motion technique facilitated by effective visualizations using Seaborn & MatplotLib.</p>
+            <p>Skills: Azure Data Factory</p>
+            <a href="https://github.com/gokula991/Stock-Analysis-Prediction" class="github-link">GitHub</a>
+        </div>
+    </div>
+</body>
+</html>

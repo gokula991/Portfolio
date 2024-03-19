@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your main stylesheet -->
+    <style>
+        /* Additional styles specific to this page */
+        .container {
+            max-width: 80%; /* Adjust the width as needed */
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">My Projects</a></li>
+            <li><a href="experience.html">Work Experience</a></li>
+            <li><a href="resume.html">My Resume</a></li>
+            <li><a href="research.html">My Research</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>My Projects</h1>
+        
+        <div class="project">
+            <h2>Industry Partnered Capstone Project</h2>
+            <p>Associated with Seattle University and Fortune 500 Company</p>
+            <p><strong>Project Duration:</strong> Jan 2024 - Present</p>
+            <p>Algorithm for Fed Markets: This project, conducted in collaboration with a Fortune 500 company and affiliated with Seattle University, is a comprehensive endeavor aimed at revolutionizing market research strategies for a leading IT distributor. Focused specifically on government contracts within the Space Force sector, the project introduces an innovative advanced search engine powered by cutting-edge unsupervised Natural Language Processing (NLP) techniques.</p>
+            <p>The primary goal of this initiative is to overhaul the distributor's internal data analysis and discovery process, which currently relies on manual research and data aggregation from disparate sources. By leveraging advanced NLP algorithms, the project streamlines the extraction, aggregation, and transformation of data, significantly enhancing efficiency and accessibility for the distributor's team.</p>
+            <p>Through the integration of a streamlined user interface and a robust data pipeline, the project enables seamless navigation through vast amounts of data from various sources. This automation not only optimizes the distributor's ability to identify emerging market trends and contracting opportunities but also empowers them to make well-informed decisions swiftly and stay competitive in the government contracting landscape.</p>
+            <p>Throughout the project timeline, spanning from January 2024 to June 2024, the team will collaborate closely with the Fortune 500 company and Seattle University to develop and implement state-of-the-art solutions tailored to the distributor's specific needs. By the project's completion, it is anticipated that the distributor will experience a significant reduction in both time and effort required for market research activities, ultimately leading to improved operational efficiency and strategic decision-making.</p>
+            <button class="download-btn" onclick="window.location.href='https://github.com/gokula991/Industry-Partnered-Capstone-Project'">View on GitHub</button>
+        </div>
+
+         <div class="project">
+            <h2>Streamlit Application for Resume Analysis using NLP and GPT-3.5 turbo (Recruiter Friendly)</h2>
+            <p><strong>Project Duration:</strong> March 2024 - Present</p>
+            <p>Technical Synopsis: Streamlit-Powered ATS Resume Matcher with OpenAI GPT-3.5 Turbo</p>
+            <p>This project leverages OpenAI's powerful GPT-3.5 Turbo language model, seamlessly integrated within a user-friendly Streamlit web app. It utilizes CountVectorizer from Scikit-learn to transform resumes and job descriptions into numerical vectors for calculating cosine similarity and matching suitability. The system can dynamically generate job descriptions for different experience levels (entry, mid, and advanced) and suggest missing keywords to enhance resumes based on the job description, powered by GPT-3.5 Turbo. PyPDF2 library enables processing of PDF resumes, while secure key management safeguards API credentials. This Streamlit-based application significantly optimizes the resume screening process, offering a data-driven and user-friendly approach to talent acquisition for recruiters.</p>
+            <h3>Functionality:</h3>
+            <ul>
+                <li><strong>Power Analyze:</strong> This feature analyzes the compatibility of a resume within current technology domains, offering insights for job seekers at entry, mid-senior, and advanced levels. It provides scores for various domains including Computer Science, Data Science, Machine Learning, Business Analysis, and Cloud Computing.</li>
+                <li><strong>Matching Analyze:</strong> This feature calculates the similarity score between a resume and a job description, suggesting missing keywords from the job description that are not present in the resume.</li>
+                <li><strong>Comparative Analyze:</strong> This feature allows recruiters to parse multiple resumes received for a job posting, ranking candidates based on their suitability and providing options to filter candidates based on score thresholds.</li>
+            </ul>
+            <h3>Power Analyze Results:</h3>
+            <p>General Analysis complete!</p>
+            <table>
+                <tr>
+                    <th>Technology Domain</th>
+                    <th>Entry-level</th>
+                    <th>Mid-senior level</th>
+                    <th>Advanced level</th>
+                </tr>
+                <tr>
+                    <td>Computer Science</td>
+                    <td>47.41%</td>
+                    <td>53.78%</td>
+                    <td>57.07%</td>
+                </tr>
+                <tr>
+                    <td>Data Science</td>
+                    <td>67.49%</td>
+                    <td>60.96%</td>
+                    <td>65.98%</td>
+                </tr>
+                <tr>
+                    <td>Machine Learning</td>
+                    <td>55.56%</td>
+                    <td>39.30%</td>
+                    <td>46.02%</td>
+                </tr>
+                <tr>
+                    <td>Business Analysis</td>
+                    <td>56.63%</td>
+                    <td>48.57%</td>
+                    <td>57.60%</td>
+                </tr>
+                <tr>
+                    <td>Cloud Computing</td>
+                    <td>43.41%</td>
+                    <td>43.13%</td>
+                    <td>41.37%</td>
+                </tr>
+            </table>
+            <p>Skills: Large Language Models (LLM), Natural Language Processing (NLP), Application Programming Interfaces (API), Streamlit</p>
+            <button class="download-btn" onclick="window.location.href='https://github.com/gokula991/Industry-Partnered-Capstone-Project'">View on GitHub</button>
+        </div>
+
+        <div class="project">
+            <h2>Bird Species Classification using Deep Learning</h2>
+            <p><strong>Project Duration:</strong> September 2022 - December 2022</p>
+            <p>Technical Synopsis: Sound Recognition with Deep Learning for Bird Species Classification</p>
+            <p>This project explores the application of machine learning and deep learning techniques for the categorization of bird sounds, aiming to monitor bird population health and biodiversity. It covers the process of sound recognition from feature extraction to classification, utilizing spectrograms and neural networks. The methodology involves constructing a custom neural network for bird sound classification, including data preprocessing, binary and multi-class classification models, and transfer learning. Optimization algorithms and data augmentation techniques are employed to enhance model accuracy and robustness.</p>
+            <h3>Functionality:</h3>
+            <ul>
+                <li><strong>Binary Classification:</strong> Classifies between two bird species using spectrograms and deep learning models.</li>
+                <li><strong>Multi-class Classification:</strong> Classifies sound clips into one of the twelve species categories using custom neural networks.</li>
+                <li><strong>Transfer Learning:</strong> Explores adapting pre-trained neural network models for improved classification accuracy.</li>
+            </ul>
+            <h3>Conclusion:</h3>
+            <p>The project discusses the theoretical background of sound recognition, including feature extraction and classification using spectrograms and neural networks. It also covers hyperparameter tuning and optimization techniques to improve model performance.</p>
+            <p>This study successfully builds custom neural network models for bird species classification, explores transfer learning, and addresses challenges such as dataset size and overfitting. The report highlights the importance of sound recognition in monitoring bird populations and biodiversity.</p>
+            <button class="download-btn" onclick="window.location.href='#'">View Full Github</button>
+        </div>
+        <div class="project">
+            <h2>Stock Analysis using Yahoo Finance API</h2>
+            <p>Project Duration: May 2021 - Jun 2021</p>
+            <p>This project delves into the intricate behavior of stock markets on an annual basis, focusing on various disciplines such as NFLX, TSLA, and more. It addresses a wide array of challenges related to stock market analysis, including:</p>
+            <ul>
+                <li><strong>Daily Returns:</strong> Analyzing the daily returns of stocks to understand their volatility and performance over time.</li>
+                <li><strong>Moving Averages:</strong> Utilizing moving average techniques to identify trends and patterns in stock price movements.</li>
+                <li><strong>Interdependence of Stocks:</strong> Investigating the relationships and dependencies between different stocks to assess their correlations and diversification benefits.</li>
+                <li><strong>Value at Risk (VaR):</strong> Assessing the potential losses of an investment portfolio over a given time horizon under normal market conditions.</li>
+                <li><strong>Forecasting Stock Behavior:</strong> Employing advanced techniques such as the Bootstrap method, Monte Carlo simulations, and Geometric Brownian Motion to forecast future stock prices and assess risk.</li>
+            </ul>
+            <p>These techniques are complemented by effective visualizations using Seaborn and Matplotlib, providing insightful graphical representations of the analyzed data.</p>
+            <h3>How it contributes to becoming a better data engineer, analyst, and scientist:</h3>
+            <p>By working on this project, you will gain valuable skills and experience that are essential for becoming a proficient data engineer, analyst, and scientist:</p>
+            <ul>
+                <li><strong>Data Handling:</strong> You will learn how to efficiently handle and manipulate large datasets obtained from Yahoo Finance API, enhancing your data engineering skills.</li>
+                <li><strong>Data Analysis:</strong> Through the application of various statistical and analytical techniques, you will develop a deeper understanding of stock market behavior and trends, honing your data analysis skills.</li>
+                <li><strong>Problem-Solving:</strong> Addressing complex challenges such as forecasting stock behavior and assessing risk will sharpen your problem-solving abilities and critical thinking skills.</li>
+                <li><strong>Programming:</strong> Working with Python libraries such as Pandas, NumPy, Seaborn, and Matplotlib will strengthen your programming skills, particularly in data manipulation and visualization.</li>
+                <li><strong>Domain Knowledge:</strong> You will gain domain-specific knowledge in finance and stock market analysis, which is valuable for future roles in data science and analytics.</li>
+            </ul>
+            <button class="download-btn" onclick="window.location.href='#'">View Project Details</button>
+        </div>
+
+        <div class="project">
+            <h2>Data Analysis and Web Scraping for future Forecasting Purposes</h2>
+            <p><strong>Project Duration:</strong> Final year of Bachelor's project: Jan 2022 - Jun 2022</p>
+            <h3>1.1 Introduction</h3>
+            <p>Data analysis involves understanding and interpreting a dataset to find answers to questions. Web scraping and visualization are powerful methods for automatically generating content on the internet. This project focuses on creating a movie rating forecast by extracting data from the IMDB website, enabling users to make informed decisions about which movies to watch based on ratings.</p>
+            <h3>1.2 Statement of the Problem</h3>
+            <p>The project aims to develop an API that extracts data from multiple websites, preprocesses it, and visualizes it to provide business insights across various disciplines. By incorporating different perspectives into problem-solving, the project seeks to offer comprehensive solutions to queries.</p>
+            <h3>1.3 Objectives</h3>
+            <ul>
+                <li>Extract data from various sources using web crawler software written in Python 3.7.</li>
+                <li>Create an open-source application for comprehending movie-related data.</li>
+                <li>Extract and analyze comments, ratings, or any attributes related to movies from commercial websites.</li>
+                <li>Ensure the application works effectively on different websites with or without static web pages.</li>
+            </ul>
+            <h3>1.4 Scope</h3>
+            <p>The project utilizes Selenium and Beautiful Soup for web scraping, allowing users to extract data from different websites. The scraping process involves opening the website, inspecting HTML tags, and storing the desired elements into a data frame. Data scraping can be time-consuming and may require additional cleaning steps.</p>
+            <h3>1.5 Applications</h3>
+            <ul>
+                <li>Cost-effective solution for data retrieval and analysis.</li>
+                <li>Low maintenance and easy implementation.</li>
+                <li>High data accuracy at scale.</li>
+                <li>Simplified data retrieval through automation.</li>
+                <li>Reliable performance and robustness.</li>
+            </ul>
+            <h3>1.6 Limitations</h3>
+            <ul>
+                <li>Web scraping is limited to predefined layouts on partner websites, and changes in layout may cause the script to fail.</li>
+                <li>The API service depends on partner websites, and usage may be restricted based on limitations set by these websites.</li>
+                <li>Performance and reliability of Python scripts depend on server availability and resources.</li>
+            </ul>
+            <h3>Conclusion</h3>
+            <p>Web scraping enables the extraction of hidden web data, which is crucial for various applications. The project aims to provide an easy-to-use interface for searching, analyzing, and extracting data from websites. Future work may involve integrating machine learning techniques to automate decision-making processes.</p>
+            <h3>Future Work</h3>
+            <p>Python's popularity in data science continues to grow, and future enhancements may include integrating machine learning algorithms to automate decision-making processes. Addressing the challenges of web structure inconsistency and implementing AI-driven applications are potential areas for future development.</p>
+            <button class="download-btn" onclick="window.location.href='#'">View Project Details</button>
+        </div>
+
+        <div class="project">
+            <h2>EDA On Titanic Dataset</h2>
+            <p>An compelling visualization of data over an dataset. In this project, I have drawn meaningful insights on distribution among passengers, Correlation between passengers, Factors influencing the probability of the survival by using Pandas, Numpy, Seaborn, Matplotlib, etc.</p>
+            <button class="download-btn" onclick="window.location.href='https://github.com/gokula991/Exploratory-Data-Analysis'">View on GitHub</button>
+        </div>
+    </div>
+</body>
+</html>
