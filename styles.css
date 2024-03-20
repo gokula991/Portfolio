@@ -72,6 +72,32 @@ body {
     text-align: center; /* Center align the text content */
 }
 
+/* Certification page styles */
+.certification {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.certification h2 {
+    margin-top: 0;
+}
+
+.certification p {
+    margin: 5px 0;
+}
+
+.credential-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 /* Responsive styles */
 @media screen and (max-width: 768px) {
     .menu ul {
@@ -80,5 +106,9 @@ body {
 
     .menu ul li {
         margin: 10px 0;
+    }
+
+    .certification {
+        padding: 15px;
     }
 }
