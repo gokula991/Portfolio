@@ -37,6 +37,11 @@ body {
     background-color: #0056b3; /* Darker shade on hover */
 }
 
+/* Style for active menu item */
+.menu ul li a.active {
+    background-color: #004080; /* Darker shade for active item */
+}
+
 /* Additional styles specific to this page */
 .container {
     max-width: 800px;
