@@ -1,105 +1,204 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your main stylesheet -->
-    <style>
-        /* Additional styles specific to this page */
-        .container {
-            max-width: 80%; /* Adjust the width as needed */
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-        }
-        .profile-image {
-            width: 50%; /* Adjust image width */
-            max-width: 500px; /* Set maximum width */
-            margin: 20px auto; /* Center the image */
-            display: block;
-        }
-        .buttons {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .github-btn,
-        .linkedin-btn {
-            padding: 10px 20px;
-            margin: 0 10px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        .github-btn {
-            background-color: green;
-            color: white;
-        }
-
-        .linkedin-btn {
-            background-color: blue;
-            color: white;
-        }
-
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gokula Chandra Kulala — GenAI &amp; LLM Engineer</title>
+<meta name="description" content="Gokula Chandra Kulala designs, containerizes, and deploys generative AI and multi-agent systems across GCP, AWS, and Azure.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="menu">
-        <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="projects.html">My Projects</a></li>
-            <li><a href="experience.html">Work Experience</a></li>
-            <li><a href="resume.html">My Resume</a></li>
-            <li><a href="research.html">My Research</a></li>
-            <li><a href="certifications.html">Certifications</a></li> 
-        </ul>
+
+<a class="visually-hidden" href="#content" style="position:absolute;left:-9999px;">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="nav-brand" href="index.html">Gokula Chandra Kulala.</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects/index.html">Projects</a>
+      <a href="experience.html">Experience</a>
+      <a href="contact.html">Contact</a>
     </div>
-    <div class="container">
-        <h1>Welcome On Board</h1>
-        <img src="https://raw.githubusercontent.com/gokula991/nieche/master/profile_pic.png" alt="Profile Image" class="profile-image">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello there! 👋 I'm <strong>Gokula Chandra Kulala</strong>, and I'm thrilled to have you visit my digital space!</p>
-        
-            <p>My journey in the realm of technology began during my formative years in high school, where I discovered my passion for programming and problem-solving. Thanks to the exceptional education I received from the ICSE Board, I was able to lay a robust foundation early in my career, setting the stage for my future endeavors.</p>
-        
-            <p>Driven by an insatiable curiosity and an unyielding desire to learn, I delved into various programming languages with fervor. Starting with Java, I quickly moved on to mastering C, C++, HTML, CSS, JavaScript, and Python. This early exposure not only honed my technical skills but also instilled in me a love for innovation and creativity.</p>
-        
-            <p>One of the defining moments in my journey came during my undergraduate studies, where I developed a keen interest in database systems. Exploring the intricacies of database management during my second year opened up a world of possibilities for me. It was during this time that I embarked on my first major project, connecting disparate programming languages to create practical solutions for my school and university.</p>
-        
-            <p>My professional career kicked off with a bang as I landed my first job as an Azure Data Engineer at Cognizant Technology Services. During my tenure, I immersed myself in the dynamic world of cloud computing, mastering tools like Azure SQL Database, Azure Data Bricks, Data Pipelines and Blob storage. This hands-on experience not only sharpened my technical acumen but also taught me invaluable lessons in teamwork, problem-solving, and adaptability.</p>
-        
-            <p>However, it was my relentless pursuit of excellence and my passion for data-driven insights that ultimately led me to pivot towards the field of data science. Recognizing its pivotal role in driving innovation and shaping the future, I made the decision to pursue a Master of Science in Data Science at Seattle University.</p>
-        
-            <p>My time at Seattle University has been nothing short of transformative. Immersed in the latest advancements in big data analytics, artificial intelligence, statistical machine learning, and data management, I've had the privilege of learning from some of the brightest minds in the field. Each day presents new challenges and opportunities for growth, and I am constantly pushing the boundaries of what's possible.</p>
-        
-            <p>As I look to the future, I am eager to leverage my skills and experiences to make a meaningful impact in the tech industry. Whether it's through developing cutting-edge solutions, driving data-driven decision-making, or mentoring the next generation of innovators, I am committed to leaving a lasting legacy of excellence.</p>
-        
-            <p>So, whether you're a recruiter, a fellow tech enthusiast, or simply someone who shares my passion for innovation, I invite you to explore my website further and connect with me. Together, let's embark on a journey of discovery, innovation, and limitless possibilities!</p>
-        
-            <p>Feel free to <strong>download</strong> my <strong>resume</strong> or connect with me on LinkedIn. I look forward to hearing from you!</p>
-        </section>
-        
-    <div class="buttons">
-        <a href="https://github.com/gokula991" target="_blank">
-            <button class="github-btn">GitHub</button>
-        </a>
-        <a href="https://www.linkedin.com/in/gokulachandra" target="_blank">
-            <button class="linkedin-btn">LinkedIn</button>
-        </a>
+  </nav>
+</header>
+
+<main id="content">
+
+  <section class="hero container">
+    <div class="hero-name">Gokula Chandra Kulala</div>
+    <h1>GenAI &amp; LLM Engineer — Building and Deploying <em>Production AI Systems</em> at Scale</h1>
+    <p class="lede">I design, containerize, and deploy generative AI and multi-agent systems across GCP, AWS, and Azure — turning working prototypes into production pipelines other teams can operate.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="projects/index.html">View Projects</a>
+      <a class="btn btn-ghost" href="contact.html">Contact</a>
     </div>
-        
-        <section id="hobbies">
-            <h2>Hobbies</h2>
-            <p><strong>Coding Enthusiast:</strong> When not crunching data, Gokula enjoys diving into lines of code, crafting innovative solutions, and exploring new technologies.</p>
-            <p><strong>Road Trip Enthusiast:</strong> From Multnomah Falls to North Cascades, Gokula's day trips capture the essence of nature.</p>
-            <p><strong>Recent Adventures:</strong> A newfound hobby of spontaneous day trips, uncovering hidden gems around every turn.</p>
-        </section>
+
+    <div class="process">
+      <div class="process-item">
+        <span class="k">// 01 Prototype</span>
+        <p>LLMs, RAG, and multi-agent systems validated with vector search and NLP.</p>
+      </div>
+      <div class="process-item">
+        <span class="k">// 02 Containerize</span>
+        <p>Docker images built for reproducible, cloud-portable deployment.</p>
+      </div>
+      <div class="process-item">
+        <span class="k">// 03 Orchestrate</span>
+        <p>Vertex AI, Cloud Run, and AWS Step Functions coordinate production agents.</p>
+      </div>
+      <div class="process-item">
+        <span class="k">// 04 Observe</span>
+        <p>BigQuery-to-Data Studio (formerly Looker Studio) pipelines keep production agents accountable.</p>
+      </div>
     </div>
+  </section>
+
+  <section class="section container reveal">
+    <div class="eyebrow"><span class="section-num">01</span> — Proof of work</div>
+    <h2>Production GenAI, shipped and running</h2>
+
+    <div class="proof-list mt-lg">
+      <div class="proof-item">
+        <span class="proof-idx">01</span>
+        <div>
+          <h3>Leading Agentic AI @ Wells Fargo</h3>
+          <p>Promoted to lead the Wells Fargo Payments Agentic AI initiative, managing a team of 8 engineers.</p>
+        </div>
+      </div>
+      <div class="proof-item">
+        <span class="proof-idx">02</span>
+        <div>
+          <h3>EchoVoice — Serverless Voice Pipeline</h3>
+          <p>AWS Step Functions orchestrate Lambda, S3, Polly, and Translate end-to-end.</p>
+        </div>
+      </div>
+      <div class="proof-item">
+        <span class="proof-idx">03</span>
+        <div>
+          <h3>Vertex AI Agents @ ZScale</h3>
+          <p>Deploying AI agents for Wells Fargo workflows via Google's Vertex AI; BigQuery-to-Data Studio (formerly Looker Studio) pipelines in production.</p>
+        </div>
+      </div>
+      <div class="proof-item">
+        <span class="proof-idx">04</span>
+        <div>
+          <h3>HandyHelp — Context-Aware Agent</h3>
+          <p>Generative AI, retrieval logic, and fallback strategies inside Google's Conversational Agent ecosystem.</p>
+        </div>
+      </div>
+      <div class="proof-item">
+        <span class="proof-idx">05</span>
+        <div>
+          <h3>Multi-Agent Job-Search System</h3>
+          <p>Web scraping and BERT-based NLP, containerized with Docker and deployed on AWS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container reveal">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow"><span class="section-num">02</span> — Featured work</div>
+        <h2>Selected builds</h2>
+        <p class="lede">Three production-minded GenAI systems, each shipped end to end.</p>
+      </div>
+    </div>
+
+    <div class="card-grid">
+      <article class="card">
+        <h3>HandyHelp</h3>
+        <p>A conversational AI support agent delivering context-aware assistance by combining generative AI, custom retrieval logic, and fallback strategies — orchestrated within Google's Conversational Agent ecosystem.</p>
+        <div class="tags">
+          <span class="tag">Generative AI</span>
+          <span class="tag">Retrieval Logic</span>
+          <span class="tag">Google Conversational Agents</span>
+        </div>
+        <div class="card-links">
+          <a href="projects/handyhelp-context-aware-genai-agent.html">Read case study</a>
+          <a class="secondary" href="https://github.com/gokula991/HandyHelp-Context-Aware-GenAI-Agent" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>EchoVoice</h3>
+        <p>A serverless AWS pipeline orchestrating Lambda functions for transcription, translation, and audio processing — automating an end-to-end voice-to-voice translation pipeline.</p>
+        <div class="tags">
+          <span class="tag">AWS Step Functions</span>
+          <span class="tag">Lambda</span>
+          <span class="tag">Polly · Translate · S3</span>
+        </div>
+        <div class="card-links">
+          <a href="projects/echovoice-serverless-voice-pipeline.html">Read case study</a>
+          <a class="secondary" href="https://github.com/gokula991/EchoVoice-AWSServerless-Voice-to-Voice-Translation-Pipeline" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Resume Analyzer</h3>
+        <p>A Streamlit app using NLP and GPT-3.5-turbo to help resumes clear ATS screening and land interviews.</p>
+        <div class="tags">
+          <span class="tag">GPT-3.5-turbo</span>
+          <span class="tag">NLP</span>
+          <span class="tag">Streamlit</span>
+        </div>
+        <div class="card-links">
+          <a href="projects/resume-analysis-nlp-gpt.html">Read case study</a>
+          <a class="secondary" href="https://github.com/gokula991/Streamlit-Application-for-Resume-Analysis-using-NLP-and-GPT-3.5-turbo" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section container reveal">
+    <div class="eyebrow"><span class="section-num">03</span> — Currently</div>
+    <div class="callout mt-lg">
+      <h2>GenAI Engineer (Contractor), Wells Fargo — via ZScale LLC</h2>
+      <p>Architecting a GCP-native Corrective RAG (CRAG) solution on Vertex AI Vector Search and Matching Engine, and leading the Wells Fargo Payments Agentic AI initiative.</p>
+      <div class="tags mt-lg">
+        <span class="tag">LLMs</span>
+        <span class="tag">RAG</span>
+        <span class="tag">Multi-agent systems</span>
+        <span class="tag">GCP · Vertex AI · Cloud Run</span>
+        <span class="tag">AWS</span>
+        <span class="tag">Azure</span>
+        <span class="tag">Python</span>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="experience.html">Full experience</a>
+        <a class="btn btn-ghost" href="about.html">Skills &amp; credentials →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta container reveal">
+    <div class="eyebrow"><span class="section-num">04</span> — Get in touch</div>
+    <h2>Open to GenAI Engineer / LLM Engineer and Data Scientist – Generative AI roles.</h2>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="contact.html">Get in touch</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>© Gokula Chandra Kulala</span>
+    <span>
+      <a href="https://www.linkedin.com/in/gokulachandra" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="contact.html">Contact</a>
+    </span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>

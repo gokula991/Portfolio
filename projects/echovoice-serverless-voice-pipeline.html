@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EchoVoice — AWS Serverless Voice Pipeline | Gokula Chandra Kulala</title>
+<meta name="description" content="Case study: EchoVoice, a serverless AWS Step Functions pipeline for voice-to-voice translation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="nav-brand" href="../index.html">Gokula Chandra Kulala.</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+      <a href="index.html">Projects</a>
+      <a href="../experience.html">Experience</a>
+      <a href="../contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main id="content">
+  <section class="hero container" style="padding-bottom:0;">
+    <a class="back-link" href="index.html">← All projects</a>
+    <div class="hero-name">Case study</div>
+    <h1>EchoVoice — AWS Serverless Voice-to-Voice Translation Pipeline</h1>
+    <p class="lede">A serverless application using AWS Step Functions to orchestrate multiple Lambda functions for transcription, translation, and audio processing — automating the end-to-end voice-to-voice pipeline.</p>
+
+    <div class="meta-row">
+      <div class="meta-item"><span class="k">Role</span><span class="v">Builder</span></div>
+      <div class="meta-item"><span class="k">Platform</span><span class="v">AWS (serverless)</span></div>
+      <div class="meta-item"><span class="k">Repo</span><span class="v">gokula991/EchoVoice-AWSServerless-Voice-to-Voice-Translation-Pipeline</span></div>
+    </div>
+
+    <div class="btn-row" style="margin-top:0;">
+      <a class="btn btn-primary" href="https://github.com/gokula991/EchoVoice-AWSServerless-Voice-to-Voice-Translation-Pipeline" target="_blank" rel="noopener">View on GitHub ↗</a>
+      <a class="btn btn-ghost" href="index.html">Back to projects</a>
+    </div>
+  </section>
+
+  <section class="section container reveal case-body">
+    <div class="eyebrow"><span class="section-num">01</span> — Context</div>
+    <h2>Voice translation needs more than one API call</h2>
+    <p>Turning spoken audio in one language into spoken audio in another means chaining transcription, translation, and speech synthesis — each with its own service, latency, and failure mode.</p>
+  </section>
+
+  <section class="section container reveal case-body">
+    <div class="eyebrow"><span class="section-num">02</span> — Approach</div>
+    <h2>Step Functions orchestrating a Lambda pipeline</h2>
+    <p>EchoVoice designs and implements a serverless application using AWS Step Functions to orchestrate multiple Lambda functions for transcription, translation, and audio processing. It integrates AWS services — S3, Polly, and Translate — alongside Step Functions to automate the end-to-end pipeline without a persistent server to manage.</p>
+    <div class="tags mt-lg">
+      <span class="tag">AWS Step Functions</span>
+      <span class="tag">AWS Lambda</span>
+      <span class="tag">Amazon S3</span>
+      <span class="tag">Amazon Polly</span>
+      <span class="tag">Amazon Translate</span>
+    </div>
+  </section>
+
+  <section class="section container reveal">
+    <div class="eyebrow"><span class="section-num">03</span> — Links</div>
+    <h2>Source</h2>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="https://github.com/gokula991/EchoVoice-AWSServerless-Voice-to-Voice-Translation-Pipeline" target="_blank" rel="noopener">GitHub repository ↗</a>
+    </div>
+  </section>
+
+  <section class="cta container reveal">
+    <div class="eyebrow">Next</div>
+    <h2>Curious about the cloud stack behind these builds?</h2>
+    <div class="btn-row">
+      <a class="btn btn-ghost" href="../experience.html">View experience</a>
+      <a class="btn btn-primary" href="resume-analysis-nlp-gpt.html">Next case study →</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>© Gokula Chandra Kulala</span>
+    <span>
+      <a href="https://www.linkedin.com/in/gokulachandra" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="../contact.html">Contact</a>
+    </span>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

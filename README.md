@@ -1,14 +1,59 @@
----
+# Gokula Chandra Kulala — Portfolio
 
-### Welcome to My Digital Space! 👋  
-Hi, I’m **Gokula Chandra Kulala**, a passionate data scientist and technology enthusiast with a dynamic journey in programming, problem-solving, and innovation.  
+A plain HTML/CSS/JS recreation of the portfolio (home, about, projects, experience, contact +
+3 case studies), rebuilt in a dark "signal amber" theme with a custom circular cursor
+spotlight that follows the mouse and illuminates a dot-grid background. No build step,
+no framework — just static files, so it drops straight into GitHub Pages.
 
-My fascination with technology began in high school, where I built a strong foundation in programming, thanks to my ICSE education. Starting with Java, I quickly expanded my repertoire to include C, C++, HTML, CSS, JavaScript, and Python, fostering a deep love for innovation and creativity.  
+## Structure
 
-During my undergraduate studies, I developed a keen interest in database systems, culminating in projects that integrated diverse programming languages to create impactful solutions. This journey led to my first role as an **Azure Data Engineer** at Cognizant, where I mastered cloud tools like Azure SQL Database, Data Bricks, Pipelines, and Blob Storage.  
+```
+index.html
+about.html
+experience.html
+contact.html
+projects/
+  index.html
+  handyhelp-context-aware-genai-agent.html
+  echovoice-serverless-voice-pipeline.html
+  resume-analysis-nlp-gpt.html
+assets/
+  css/style.css     -> all styling, incl. .spotlight-glow / .spotlight-ring
+  js/main.js         -> cursor spotlight, mobile nav, tabs, copy button, scroll reveal
+```
 
-Recognizing the transformative power of data, I pursued a **Master’s in Data Science at Seattle University**, delving into big data analytics, AI, and statistical machine learning. Each challenge I’ve tackled has reinforced my commitment to leveraging data-driven insights to solve real-world problems.  
+## Run it locally
 
-I’m excited to collaborate, innovate, and contribute to the tech industry through cutting-edge solutions and impactful projects. Feel free to explore my portfolio, download my resume, or connect with me on LinkedIn. Let’s shape the future together!  
+Because the pages link to each other with relative paths, the most reliable way to preview
+it is a tiny local server (double-clicking `index.html` also works fine, but a server avoids
+any browser quirks with `file://` links):
 
----  
+```bash
+cd portfolio
+python3 -m http.server 8000
+# then open http://localhost:8000 in your browser
+```
+
+No dependencies, no `npm install` — just Python (already on macOS/Linux; on Windows use
+`py -m http.server 8000`).
+
+## Deploy to GitHub Pages
+
+1. Create a new GitHub repo (or reuse an existing one).
+2. Copy everything **inside** this `portfolio` folder to the repo root (so `index.html` sits
+   at the repo root, not nested in a subfolder).
+3. Commit and push.
+4. In the repo: **Settings → Pages → Source → Deploy from a branch**, pick `main` and `/root`.
+5. Your site will be live at `https://<username>.github.io/<repo-name>/` within a minute or two.
+
+If you want it at `https://<username>.github.io/` directly (no repo name in the path),
+name the repo `<username>.github.io`.
+
+## Customizing
+
+- **Colors / fonts**: edit the `:root` variables at the top of `assets/css/style.css`
+  (`--accent` is the amber signal color used throughout).
+- **Cursor spotlight**: tuned in `assets/js/main.js` under `initSpotlight()` — `glowEase`
+  and `ringEase` control how closely the glow/ring track the mouse; it auto-disables on
+  touch devices and respects `prefers-reduced-motion`.
+- **Content**: all copy lives directly in the HTML files, matching the original site's text.
